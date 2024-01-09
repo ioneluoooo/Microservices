@@ -1,6 +1,6 @@
 # Node.js Microservice with MySQL and RabbitMQ
 
-This is a simple Node.js microservice using MySQL for data storage and RabbitMQ for event-driven communication.
+This is a simple Node.js microservice using MySQL for data storage and RabbitMQ for event-driven communication. No CI/CD pipelines as tests of any kind too.
 
 ## Table of Contents
 
