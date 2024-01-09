@@ -7,7 +7,7 @@ import axios from "axios"
 
 const dataSource = new DataSource({
     "type": "mongodb",
-    "url": "mongodb+srv://admin:1ws2qa3ed@moicluster.iygrrhw.mongodb.net/nodeapi_database?retryWrites=true&w=majority",
+    "url": "mongodb_url",
     "synchronize": true,
     "logging": true,
     "entities": [
@@ -20,7 +20,7 @@ dataSource.initialize()
 
         const productRepository = db.getMongoRepository(Product)
 
-        amqp.connect('amqps://dmxrsfku:z3953IdAtawCGTJ4aVyf8pVNWOV9cdNi@rattlesnake.rmq.cloudamqp.com/dmxrsfku', (error, connection) => {
+        amqp.connect('your_amqps_url', (error, connection) => {
             if (error) {
                 throw error
             }
