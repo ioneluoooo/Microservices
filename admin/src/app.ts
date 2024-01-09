@@ -23,7 +23,7 @@ dataSource.initialize()
     .then(async (db) => {
 
         //Connecting to rabbitMQ
-        amqp.connect('amqps://dmxrsfku:z3953IdAtawCGTJ4aVyf8pVNWOV9cdNi@rattlesnake.rmq.cloudamqp.com/dmxrsfku', (error, connection) => {
+        amqp.connect('your_amqpsURL', (error, connection) => {
             if (error) {
                 throw error
             }
