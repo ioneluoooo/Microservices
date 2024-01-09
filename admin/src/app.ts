@@ -9,8 +9,8 @@ const dataSource = new DataSource({
     "host": "localhost",
     "port": 3306,
     "username": "root",
-    "password": "pHih5/F[(0:9",
-    "database": "nodeapi_database",
+    "password": "your_password",
+    "database": "your_db_name",
     "entities": [
         "src/entity/*.js"
     ],
